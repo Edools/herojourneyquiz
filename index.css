@@ -47,7 +47,7 @@ body {
   font-weight: 700;
 }
 
-.btn-help {
+.btn-help, .btn-exit {
   width: 101px;
   height: 101px;
   border-radius: 999px;
@@ -96,4 +96,30 @@ body {
 
 .hidden {
   display: none;
+}
+
+.correct-answer {
+  background-color: #73FFB4 !important;
+}
+
+.wrong-answer {
+  background-color: #FF3D3D !important;
+  color: #fff !important;
+}
+
+.buttons-level-2 {
+  margin-top: 40px;
+}
+
+.popover-level {
+  bottom: 127px;
+  right: 0;
+  position: absolute;
+  color: black;
+  width: 850px;
+  border-radius: 12px;
+  background-color: white;
+  text-align: left;
+  padding: 30px;
+  text-align: center;
 }
