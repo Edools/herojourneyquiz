@@ -1,0 +1,30 @@
+.questions {
+  background-color: #161616;
+  height: 871px;
+  width: 730px;
+  border-radius: 20px;
+  padding: 26px;
+}
+
+.questions .title-question {
+  margin-bottom: 30px;
+}
+
+.questions hr {
+  margin-bottom: 30px;
+}
+
+.questions ul{
+  list-style:none;
+}
+
+.questions ul li {
+  padding: 40px 36px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  color: black;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}

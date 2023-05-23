@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(29, 29, 29);
+  color: #e3e3e3;
+}
+
+.box {
+  background-color: red;
+  height: 100vh;
+  background-image: url('./images/BG.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 106px;
+  width: 100%;
+}
+
+#logo {
+  width: 404px;
+  height: 107px;
+  margin-bottom: 30px;
+}
+
+#cenarios {
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.text {
+  font-size: 2.5rem;
+}
+
+.btn {
+  padding:24px 101px;
+  font-size: 2.5rem;
+  text-decoration: none;
+  background-color: #6021D8;
+  color: white;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.btn-help {
+  width: 101px;
+  height: 101px;
+  border-radius: 999px;
+  background-color: #FF305C;
+  color: white;
+  font-weight: 700;
+  font-size: 2.5rem;
+  outline: 0;
+  border: 0;
+}
+
+.buttons-home {
+  display: flex;
+}
+
+.btn-help {
+  position: absolute;
+  right: 120px;
+}
+
+.popover {
+  bottom: 127px;
+  right: 0;
+  position: absolute;
+  color: black;
+  width: 850px;
+  border-radius: 12px;
+  background-color: white;
+  text-align: left;
+  padding: 30px;
+}
+
+.popover #sair {
+  position: absolute;
+  right: 27px;
+  top: 27px;
+  color: red;
+}
+
+.popover ol {
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
