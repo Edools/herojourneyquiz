@@ -1,13 +1,29 @@
 .questions {
   background-color: #161616;
-  height: 871px;
   width: 730px;
   border-radius: 20px;
-  padding: 26px;
+  padding: 150px 40px 40px 40px;
+  position: relative;
+}
+
+.questions::before {
+  position: absolute;
+  top: -70px;
+  left: -100px;
+}
+.questions.question1::before {
+  content: url('./images/Map-level1.png');
+}
+
+.questions.question2::before {
+  content: url('./images/Map-level2.png');
+  top: -115px;
+  left: -125px;
 }
 
 .questions .title-question {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .questions hr {
@@ -27,4 +43,59 @@
   font-weight: 900;
   font-size: 30px;
   text-align: center;
+}
+
+.outer-circle {
+  width: 151px;
+  height: 151px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 290px;
+  top: -50px;
+}
+
+.question1 .outer-circle {
+  border: 4px solid #F26C22;
+}
+
+.question2 .outer-circle {
+  border: 4px solid #00D715;
+}
+
+.inner-circle {
+  width: 101px;
+  height: 101px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+}
+
+.question1 .inner-circle {
+  background: #FF6900;
+}
+
+.question2 .inner-circle {
+  background: #00D715;
+}
+
+#questions1 {
+  padding: 20px 40px;
+}
+
+.questions-progress {
+  position: absolute;
+  bottom: 80px;
+}
+
+.hero-question {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
 }

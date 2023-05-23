@@ -145,7 +145,7 @@ const questions = [
         li.classList.add('correct-answer')
         let downloadTimer = setInterval(function(){
           if(timeleft === 0){
-            window.location.replace('level2.html')
+            window.location.replace('level3.html')
             clearInterval(downloadTimer);
           }
           timeleft -= 1;
@@ -155,7 +155,7 @@ const questions = [
         
         let downloadTimer = setInterval(function(){
           if(timeleft === 0){
-            window.location.replace('wrong1.html')
+            window.location.replace('wrong2.html')
             clearInterval(downloadTimer);
           }
           timeleft -= 1;
