@@ -139,10 +139,34 @@ const questions = [
 const random = Math.floor(Math.random() * 15);
 const randomQuestion = questions[random]
 const ul = document.querySelector('#questions1')
+const answers = ul.children
 document.querySelector('#title-question1').innerHTML = randomQuestion.title
+let timeleft = 2;
 
-randomQuestion.options.forEach((e) => {
+randomQuestion.options.forEach((e, index) => {
   const li = document.createElement('li')
   li.innerHTML = e;
+  li.addEventListener('click', () => {
+    if (index == randomQuestion.right) {
+      li.classList.add('correct-answer')
+      let downloadTimer = setInterval(function(){
+        if(timeleft === 0){
+          window.location.replace('level2.html')
+          clearInterval(downloadTimer);
+        }
+        timeleft -= 1;
+      }, 1000);
+    }else {
+      li.classList.add('wrong-answer')
+      
+      let downloadTimer = setInterval(function(){
+        if(timeleft === 0){
+          window.location.replace('wrong1.html')
+          clearInterval(downloadTimer);
+        }
+        timeleft -= 1;
+      }, 1000);
+    }
+  })
   ul.appendChild(li)
 })
