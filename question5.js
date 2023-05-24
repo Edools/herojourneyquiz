@@ -127,7 +127,7 @@ const questions = [
       'Adicionar animações, grandes imagens e outros efeitos visuais',
       'Melhorar a usabilidade e o design do site',
     ],
-    right: 0,
+    right: 2,
   },
 
   {
