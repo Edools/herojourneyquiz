@@ -53,9 +53,9 @@ const questions = [
   {
     title: 'Quais dos seguintes elementos de uma landing page tem o maior impacto na conversão?',
     options: [
-      ' Imagem de fundo',
+      'Usar animações',
       'Botão de chamada para ação',
-      'Tamanho da fonte',
+      'Nome do especialista',
     ],
     right: 1,
   },
