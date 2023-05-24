@@ -6,7 +6,7 @@ const questions = [
       'Promoção de produtos por comissão ',
       'Influenciadores promovendo produtos',
     ],
-    right: 0
+    right: 1
   },
   {
     title: 'O que é um infoproduto?',
@@ -15,7 +15,7 @@ const questions = [
       'Um produto digital que contém informações úteis',
       'Um serviço prestado por um profissional',
     ],
-    right: 0
+    right: 1
   },
   {
     title: 'Qual é o principal objetivo do marketing de afiliados?',
@@ -24,7 +24,7 @@ const questions = [
       'Aumentar a taxa de conversão',
       'Gerar vendas',
     ],
-    right: 0
+    right: 2
   },
   {
     title: 'Como os afiliados são remunerados?',
@@ -33,7 +33,7 @@ const questions = [
       'Por meio de uma ajusta de custo',
       'Comissão por venda',
     ],
-    right: 0
+    right: 2
   },
   {
     title: 'Qual é a diferença entre um produto físico e um infoproduto?',
@@ -51,7 +51,7 @@ const questions = [
       'Uma forma de conectar afiliados e infoprodutores',
       'Um programa de treinamento para afiliados',
     ],
-    right: 0
+    right: 1
   },
   {
     title: 'O que é um funil de vendas?',
@@ -69,7 +69,7 @@ const questions = [
       'A comissão para cada venda que os afiliados fazem',
       'Taxa para se inscrever em programas de afiliados',
     ],
-    right: 0
+    right: 1
   },
   {
     title: 'O que é um link de afiliado?',
@@ -96,7 +96,7 @@ const questions = [
       'Google e Bing',
       'HeroSpark',
     ],
-    right: 0
+    right: 2
   },
   {
     title: 'O que é um lead?',
@@ -105,7 +105,7 @@ const questions = [
       'Uma pessoa que se inscreveu em uma lista ou formulário de interesse',
       'Uma pessoa que clicou no link de afiliado, mas não comprou o produto',
     ],
-    right: 0
+    right: 1
   },
   {
     title: 'O que é uma landing page?',
@@ -132,7 +132,7 @@ const questions = [
       'Fazer spam para vender cursos com qualidade duvidosa',
       'Criar produtos digitais úteis e relevantes para o seu público-alvo',
     ],
-    right: 0
+    right: 2
   },
 ]
 
