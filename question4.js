@@ -113,7 +113,7 @@ const questions = [
     options: [
       'Sim, porque é impossível vender na internet algo que ainda não está pronto.',
       'Não, porque posso criar a oferta e nunca lançar o produto',
-      'Não, tem como fazer faixa antes de ter produto pronto, como no lançamento semente',
+      'Não, tem como fazer caixa antes de ter produto pronto, como no lançamento semente',
     ],
     right: 2
   },
