@@ -172,9 +172,9 @@ const questions = [
   {
     title: 'O que é um "Programa de Recorrência"?',
     options: [
-      "É quando o afiliado recebe uma comissão por cada vend",
-      "É um programa de serviço de assinatur",
-      "É quando o afiliado recebe por cada novo cliente que se cadastra em uma págin",
+      "É quando o afiliado recebe uma comissão por cada venda",
+      "É um programa de serviço de assinatura",
+      "É quando o afiliado recebe por cada novo cliente que se cadastra em uma página",
     ],
     right: 1
   },
