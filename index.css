@@ -84,6 +84,8 @@ body {
   border-radius: 999px;
   font-weight: 700;
   box-shadow: 0px 4px 26px 1px #6021D8;
+  z-index: 999;
+  position: relative;
 }
 
 .btn.continue {
@@ -244,6 +246,18 @@ body {
   right: 100px;
 }
 
+.hero-bottom.level3 {
+  right: 50px;
+}
+
+.hero-bottom.level5 {
+  right: 30px;
+}
+
+.hero-bottom.finish-level {
+  right: 30px;
+}
+
 .hero-bottom img {
   width: 140%;
 }
@@ -266,7 +280,7 @@ body {
 
 .hero-bottom.finished {
   bottom: 157px;
-  right: 135px;
+  right: 73px;
 }
 
 .box.finished .main-content {
@@ -276,7 +290,15 @@ body {
 
 .buttons-finish {
   position: absolute;
-  bottom: 80px;
+  bottom: 200px;
+}
+
+.buttons-finish.wrong {
+  bottom: 90px;
+}
+
+.buttons-finish.finished-total {
+  bottom: 200px;
 }
 
 .level-main-title {
