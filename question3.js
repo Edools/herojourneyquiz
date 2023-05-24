@@ -184,7 +184,7 @@ const questions = [
 
 
   {
-    title: '1O que são gatilhos mentais?',
+    title: 'O que são gatilhos mentais?',
     options: [
       "São armas para obrigar alguém a comprar um produto",
       "São estímulos que influenciam a tomar uma decisão",
