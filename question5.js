@@ -175,7 +175,7 @@ randomQuestion.options.forEach((e, index) => {
       
       let downloadTimer = setInterval(function(){
         if(timeleft === 0){
-          window.location.replace('wrong5.html')
+          window.location.replace('finished-level5.html')
           clearInterval(downloadTimer);
         }
         timeleft -= 1;

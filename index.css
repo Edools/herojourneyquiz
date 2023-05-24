@@ -219,6 +219,7 @@ body {
   font-size: 80px;
   font-weight: 400;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .finish-main-title.total {
@@ -234,6 +235,7 @@ body {
 .finish-subtitle {
   font-size: 40px;
   margin-bottom: 21px;
+  text-align: center;
 }
 
 .hero-bottom {
@@ -244,6 +246,17 @@ body {
 
 .hero-bottom img {
   width: 140%;
+}
+
+.hero-bottom.level3 img {
+  width: 130%;
+}
+
+.hero-bottom.level5 img {
+  width: 160%;
+  position: relative;
+  right: 100px;
+  bottom: 30px;
 }
 
 .hero-bottom.wrong {

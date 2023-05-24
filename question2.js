@@ -154,7 +154,7 @@ const questions = [
         
         let downloadTimer = setInterval(function(){
           if(timeleft === 0){
-            window.location.replace('wrong2.html')
+            window.location.replace('finished-level2.html')
             clearInterval(downloadTimer);
           }
           timeleft -= 1;
