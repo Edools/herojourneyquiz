@@ -27,9 +27,9 @@ const questions = [
     },
     {
       "title": 'O que significa “conversão” no mercado digital?',
-      "options": ["  O número de pessoas que realiza uma compra ",
-        "O número de pessoas que clica em um link, mas não compra",
-        "O número de pessoas que se cadastra em uma lista de e-mails ",
+      "options": ["O número de pessoas que realiza uma ação",
+        "O número de leads no nicho religioso",
+        "O número de pessoas que ignora o seu marketing",
       ],
       "right": 0
     },
@@ -86,7 +86,7 @@ const questions = [
     {
       "title": 'O que é o Google Ads?',
       "options": ["  Otimizar um site para atrair mais cliques orgânicos",
-        "Pagar diretamente ao Google para promover links",
+        "Vender seu produto no Google Minha Empresa",
         "Sistema de publicidade online do Google",
       ],
       "right": 2
