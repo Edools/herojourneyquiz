@@ -153,8 +153,7 @@ const questions = [
 
 const random = Math.floor(Math.random() * 15);
 const randomQuestion = questions[random]
-const ul = document.querySelector('#questions2')
-const answers = ul.children
+const ul = document.querySelector('#questions5')
 document.querySelector('#title-question1').innerHTML = randomQuestion.title
 let timeleft = 2;
 
@@ -166,7 +165,7 @@ randomQuestion.options.forEach((e, index) => {
       li.classList.add('correct-answer')
       let downloadTimer = setInterval(function(){
         if(timeleft === 0){
-          window.location.replace('finished.html')
+          window.location.replace('finished-total.html')
           clearInterval(downloadTimer);
         }
         timeleft -= 1;

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./font.css">
+  <link rel="stylesheet" href="./index.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box">    
+    <div class="main-content level">
+      <img id="logo" src="./images/Logo.png" alt="" style="margin-bottom: 120px;">
+    
+      <p class="level-main-title">PARABÉNS!</p>
+      <p class="level-subtitle">VOCÊ AVANÇOU PARA O <br> NÍVEL 2</p>
+      <p class="level-hero">HERO</p>
+      <img class="level-img" src="./images/hero-level2.svg">
+    </div>
+
+    <div class="buttons-advance level2">
+      <a href="./level2.html" class="btn continue">Continuar</a>
+      <button class="btn-exit">
+        x
+        <div class="popover-level hidden">
+          <p class="title">Encerrar e recolher prêmios?</p>
+          <div class="buttons">
+            <a href="./finished-level2.html" class="btn-finish">SIM</a>
+            <a class="btn-continue">NÃO</a>
+          </div>
+        </div>
+      </button>
+    </div>
+    
+  </div>
+</body>
+<script src="popover-level.js"></script>
+</html>

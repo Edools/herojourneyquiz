@@ -133,7 +133,6 @@ const questions = [
   const random = Math.floor(Math.random() * 15);
   const randomQuestion = questions[random]
   const ul = document.querySelector('#questions2')
-  const answers = ul.children
   document.querySelector('#title-question1').innerHTML = randomQuestion.title
   let timeleft = 2;
   
@@ -145,7 +144,7 @@ const questions = [
         li.classList.add('correct-answer')
         let downloadTimer = setInterval(function(){
           if(timeleft === 0){
-            window.location.replace('level3.html')
+            window.location.replace('advance-level3.html')
             clearInterval(downloadTimer);
           }
           timeleft -= 1;

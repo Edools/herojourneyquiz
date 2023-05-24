@@ -7,6 +7,19 @@
        url('./fonts/Mulish-Regular.ttf') format('svg');               /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'Bangers';
+  src: url('./fonts/Bangers-Regular.ttf') format('embedded-opentype'), /* Internet Explorer */
+       url('./fonts/Bangers-Regular.ttf') format('woff2'),             /* Super Modern Browsers */
+       url('./fonts/Bangers-Regular.ttf') format('woff'),              /* Pretty Modern Browsers */
+       url('./fonts/Bangers-Regular.ttf') format('truetype'),          /* Safari, Android, iOS */
+       url('./fonts/Bangers-Regular.ttf') format('svg');               /* Legacy iOS */
+}
+
 body {
   font-family: 'MulishRegular';
+}
+
+.finish-main-title {
+  font-family: 'Bangers';
 }

@@ -151,7 +151,7 @@ randomQuestion.options.forEach((e, index) => {
       li.classList.add('correct-answer')
       let downloadTimer = setInterval(function(){
         if(timeleft === 0){
-          window.location.replace('level2.html')
+          window.location.replace('advance-level2.html')
           clearInterval(downloadTimer);
         }
         timeleft -= 1;
