@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="./font.css">
-  <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="./questions.css">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brave</title>
-</head>
-<body>
-  <div class="box">
-    <img id="logo" src="./images/Logo.png" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./font.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./questions.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brave</title>
+  </head>
+  <body>
+    <div class="box">
+      <img id="logo" class="question" src="./images/Logo.png" alt="" />
 
-    <div class="questions question1">
-      <div class="outer-circle">
-        <div class="inner-circle">1</div>
+      <div class="questions question1">
+        <div class="outer-circle">
+          <div class="inner-circle">1</div>
+        </div>
+        <h1 class="title-question" id="title-question1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          vehicula, est eu pretium placerat?
+        </h1>
+        <hr />
+        <ul id="questions1"></ul>
       </div>
-      <h1 class="title-question" id="title-question1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula, est eu pretium placerat?</h1>
-      <hr>
-      <ul id="questions1"></ul>
-    </div>
-      
-    <div class="questions-progress">
-      <div class="questions-inner-progress level1"></div>
-    </div>
 
-    <div class="hero-question">
-      <img src="./images/hero-level1.svg">        
+      <div class="questions-progress">
+        <div class="questions-inner-progress level1"></div>
+      </div>
+
+      <div class="hero-question level1">
+        <img src="./images/hero-level1.svg" />
+      </div>
     </div>
-  </div>
-</body>
-<script src="./question1.js"></script>
+  </body>
+  <script src="./question1.js"></script>
 </html>
